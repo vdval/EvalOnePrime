@@ -150,6 +150,11 @@
         text-decoration: none;
         color: rgba(245, 62, 17, 0.4);
     }
+
+    .retour:hover {
+        color: rgba(124, 113, 110, 0.4);
+        text-decoration: none;
+    }
     /*
     .animation {
         
