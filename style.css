@@ -1,5 +1,6 @@
 
     html {
+        position: scroll;
         scroll-behavior: smooth; 
     }
 
@@ -12,7 +13,7 @@
     body {
         font-family: lato;
         margin: 0;
-        position: fixed;
+        position: relative;
         width: 100%; 
     }
 
