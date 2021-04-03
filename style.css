@@ -1,162 +1,162 @@
 
+html {
+    position: scroll;
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
     html {
-        position: scroll;
-        scroll-behavior: smooth; 
+        scroll-behavior: auto;
     }
+}
 
-    @media (prefers-reduced-motion: reduce) {
-        html {
-          scroll-behavior: auto;
-        }
-      }
-    
-    body {
-        font-family: lato;
-        font-size: 1.2em;
-        margin: 0;
-        position: relative;
-        width: 100%;
-        
-    }    
+body {
+    font-family: lato, 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
 
-    a {
-        text-decoration: none;
-    }
+a {
+    text-decoration: none;
+}
 
-    ul {
-        text-align: left;
-    }
-    
-    nav {
-        margin-bottom: 2rem;
-    }
-    
-    nav, footer {
-        display: flex;
-        justify-content: space-around;
-        
-        -webkit-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
-        -moz-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
-        box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
-    }
-    main {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: justify;
-    }   
+ul {
+    text-align: left;
+}
 
-    section {
-        text-align: justify;
-    }
+nav {
+    margin-bottom: 2rem;
+}
 
-    article {
-        text-align: justify;
-        background-image: url("fleurRose.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-        width: 80vw;
-        
-    }
-        
-    h1, h2 {
-        text-align: center;
-    }
+nav,
+footer {
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-shadow: 0 0 40px 0 rgba(186, 186, 186, 1);
+    -moz-box-shadow: 0 0 40px 0 rgba(186, 186, 186, 1);
+    box-shadow: 0 0 40px 0 rgba(186, 186, 186, 1);
+}
 
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        align-items: center;
-    }
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
 
-    .other {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-    }
+section {
+    text-align: justify;
+}
 
-    .nav-item {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+article {
+    text-align: justify;
+    background-image: url("fleurRose.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80vw;
+}
 
-    .active {
-        color: #ed7114;
-        font-weight: bolder;
-        text-decoration: unset;
-    }
-    
-    .btn-grad {
-        height: 80px;
-        width: 200px;
-        margin: 10px;
-        padding: 15px 45px;
-        background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;
-        box-shadow: 0 0 20px rgba(24, 22, 22, 1);
-        border-radius: 10px;
-        
-    }
+h1,
+h2 {
+    text-align: center;
+}
 
-    .btn-grad:hover {
-        background-position: right center; /* change the direction of the change here */
-        color: #fff;
-        text-decoration: none;
-    }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
 
-    .btn-grad1 {
-        height: 80px;
-        width: 200px;
-        margin: 10px;
-        padding: 15px 45px;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: rgba(228, 34, 115, 0.6);
-        box-shadow: 0 0 20px rgba(24, 22, 22, 1);
-        border-radius: 10px;
-        
-    }
+.other {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
 
-    .btn-grad1:hover {
-        background-position: right center; /* change the direction of the change here */
-        color: rgba(174, 177, 177, 0.4);
-        text-decoration: none;
-    }
-    .p-2 {
-        width: 60vw;
-    }
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    footer {
-        margin-top: 2rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+.active {
+    color: #ed7114;
+    font-weight: bolder;
+    text-decoration: unset;
+}
 
-    .retour {
-        align-items: center;
-        text-decoration: none;
-        color: rgba(245, 62, 17, 0.4);
-    }
+.btn-grad {
+    height: 80px;
+    width: 200px;
+    margin: 10px;
+    padding: 15px 45px;
+    background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px rgba(24, 22, 22, 1);
+    border-radius: 10px;
+}
 
-    .retour:hover {
-        color: rgba(124, 113, 110, 0.4);
-        text-decoration: none;
-    }
-    /*
-    .animation {
-        
-    }
-    */
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-grad1 {
+    height: 80px;
+    width: 200px;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgba(228, 34, 115, 0.6);
+    box-shadow: 0 0 20px rgba(24, 22, 22, 1);
+    border-radius: 10px;
+}
+
+.btn-grad1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: rgba(174, 177, 177, 0.4);
+    text-decoration: none;
+}
+
+.p-2 {
+    width: 60vw;
+}
+
+footer {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.retour {
+    align-items: center;
+    text-decoration: none;
+    color: rgba(245, 62, 17, 0.4);
+}
+
+.retour:hover {
+    color: rgba(124, 113, 110, 0.4);
+    text-decoration: none;
+}
+
+/*
+.animation {
+
+}
+*/
