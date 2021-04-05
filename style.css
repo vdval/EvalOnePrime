@@ -62,7 +62,8 @@ article {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     text-align: center;
 }
 
@@ -174,10 +175,24 @@ h2 {
         color: rgba(174, 177, 177, 0.4);
         text-decoration: none;
     }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+    }
+    article {
+        text-align: justify;
+        color: rgba(29, 28, 28, 0.8);
+        background-image: url("fleurRose.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        width: 95vw;
+    }
 }
 
 .p-2 {
-    width: 60vw;
+    width: 70vw;
 }
 
 footer {
