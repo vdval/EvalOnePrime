@@ -135,25 +135,25 @@ h3 {
 }
 
 .p-2 {
-    width: 70%;
+    width: 80vw;
 
 @media screen and (max-width: 594px) {
-    /* Ecriture du code souhaité pour une navigation miniature passant sur les écrans de moins de 594px de large */
+    
     .btn-grad {
         height: 30px;
         width: 100px;
-        
     }
+
     .btn-grad1 {
         height: 30px;
         width: 100px;
-
     }
+
     .wrapper {
         width: 95%;
     }
 
-    article {
+    .article {
         width: 95vw;
     }
     
