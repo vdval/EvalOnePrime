@@ -137,29 +137,48 @@ h3 {
 .p-2 {
     width: 80vw;
 
-@media screen and (max-width: 594px) {
-    
-    .btn-grad {
-        height: 30px;
-        width: 100px;
+    @media screen and (max-width: 594px) {
+        /* Ecriture du code souhaité pour une navigation miniature passant sur les écrans de moins de 594px de large */
+        .btn-grad {
+            height: 30px;
+            width: 100px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px rgba(24, 22, 22, 1);
+            border-radius: 10px;
+        }
+        
+        .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .btn-grad1 {
+            height: 30px;
+            width: 100px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: rgba(228, 34, 115, 0.6);
+            box-shadow: 0 0 20px rgba(24, 22, 22, 1);
+            border-radius: 10px;
+        }
+        
+        .btn-grad1:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: rgba(174, 177, 177, 0.4);
+            text-decoration: none;
+        }
     }
-
-    .btn-grad1 {
-        height: 30px;
-        width: 100px;
-    }
-
-    .wrapper {
-        width: 95%;
-    }
-
-    .article {
-        width: 95vw;
-    }
-    
-    .p-2 {
-    width: 95%;
-}
 
 footer {
     margin-top: 2rem;
