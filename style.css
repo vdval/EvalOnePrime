@@ -55,7 +55,6 @@ section {
 article {
     text-align: justify;
     color: rgba(29, 28, 28, 0.8);
-    background-image: url("fleurRose.jpg");
     background-attachment: fixed;
     background-size: cover;
     width: 80vw;
@@ -66,11 +65,8 @@ h2 {
     text-align: center;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    align-items: center;
+.wrapper { 
+    width: 100%;  
 }
 
 .other {
@@ -113,26 +109,6 @@ h2 {
     text-decoration: none;
 }
 
-.btn-grad1 {
-    height: 80px;
-    width: 200px;
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: rgba(228, 34, 115, 0.6);
-    box-shadow: 0 0 20px rgba(24, 22, 22, 1);
-    border-radius: 10px;
-}
-
-.btn-grad1:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: rgba(174, 177, 177, 0.4);
-    text-decoration: none;
-}
-
 @media screen and (max-width: 594px) {
     /* Ecriture du code souhaité pour une navigation miniature passant sur les écrans de moins de 594px de large */
     .btn-grad {
@@ -154,30 +130,14 @@ h2 {
         color: #fff;
         text-decoration: none;
     }
-    
-    .btn-grad1 {
-        height: 30px;
-        width: 100px;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: rgba(228, 34, 115, 0.6);
-        box-shadow: 0 0 20px rgba(24, 22, 22, 1);
-        border-radius: 10px;
-    }
-    
-    .btn-grad1:hover {
-        background-position: right center; /* change the direction of the change here */
-        color: rgba(174, 177, 177, 0.4);
-        text-decoration: none;
+
+    .p-2 {
+        width: 100vw;
     }
 }
 
 .p-2 {
-    width: 60vw;
+    width: 70vw;
 }
 
 footer {
