@@ -3,7 +3,7 @@ Site HTML5 CSS3 Bootstrap (with Javascript) -
 
 J'ai eu 17,5 sur 20 pour ce site internet vitrine que je retravaille actuellement (nous sommes en mai 2021) selon les remarques de l'examinateur.
 
-Le concept : une association avec un évènement prévu.
+Le concept : une association.
 
 HTML5 CSS3 Bootstrap Utilisation de git et Github
 
