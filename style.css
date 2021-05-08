@@ -17,7 +17,7 @@ body {
     position: relative;
     width: 100%;
     color: rgba(17, 17, 17, 0.9);
-	background: linear-gradient(-45deg, #e4deab, #f1f1eb, #6fc4e2, #e86fec);
+	background: linear-gradient(-45deg, #fa34e9, #f5b94a, #99d8f0, #ecf02c);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 }
