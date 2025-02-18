@@ -13,6 +13,8 @@ J'ai bloqué le référencement par robots car j'ai déjà eu par le passé le p
 
 Les pages méritent une modification niveau design (le design n'est pas le but en soi mais je souhaite tout de même approfondir un minimum) : utilisation de la grille Bootstrap
 
-Le code et l'utilisation des outils sont maitrisés mais ils méritent d'être approfondis. Avec une adjonction en javascript et php, il sera opérationnel et je pourrai alors y rajouter des meta de référencement, y compris pour les réseaux sociaux : cette mouture est en cours d'amélioration avant d'être placé et utilisé sur un autre hébergement.
+Le code et l'utilisation des outils sont maitrisés mais ils méritent d'être approfondis. Avec une adjonction en javascript et php, il sera opérationnel et je pourrai alors y rajouter des meta de référencement, y compris pour les réseaux sociaux : cette mouture est en cours d'amélioration.
+
+Il émerge un besoin évident de formation en design d'interface je pense. ;) C'est à l'étude.
 
 
